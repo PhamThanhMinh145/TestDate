@@ -5,6 +5,7 @@ public class DateInMonth {
     
     public static int checkDateInMonth(String month, String year)
     {  
+        
        
           if(month.isEmpty() || year.isEmpty())
             throw new NullPointerException("Day or Month or Year is not empty");
@@ -29,8 +30,8 @@ public class DateInMonth {
         else
             return 28;
      
-        
-        
+         
+       
     }
     
 }
